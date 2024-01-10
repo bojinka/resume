@@ -1,0 +1,190 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: normal;
+    color: #800080;
+    background: #D3D3D3;
+}
+
+.info {
+    color: #E0FFFF;
+    
+}
+
+.card {
+    background: forestgreen;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bg-green {
+    background: #2F4F4F;
+}
+
+.bg-brow {
+    background: #808080;
+
+}
+
+.bg-ye {
+    background: #FFF0F5;
+}
+
+.corder {
+    margin: auto;
+    max-width: 700px;
+    padding-top: 30px;
+
+}
+
+.info {
+    padding: 10px 15px 20px 15px;
+    margin: 20px 15px 10px 20px;
+    background: #483D8B;
+    border-radius: 20px;
+
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, .25);
+    margin: auto;
+    max-width: 700px;
+}
+
+a {
+    color: Olive;
+    text-decoration: none;
+    transition: all 2s;
+
+
+}
+a:hover {
+    color: SpringGreen;
+    font-size: 8px;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: pink;
+}
+.btn {
+    background: yellow;
+    color: #483D8B;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 15px 10px;
+    cursor: pointer;
+    font-family: inherit;
+
+}
+.btn:hover{
+    opacity: .8;
+}
+
+.glas {
+    padding: 0 20px;
+    margin: 0;
+    list-style: none;
+}
+
+.glas li {
+    margin-bottom: 10px;
+    border-bottom: 2px solid green;
+}
+
+.dibil {
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.dibil th {
+    margin-bottom: 5px;
+    border-bottom: 3px solid gold;
+
+}
+
+.dibil2 td {
+    margin-bottom: 10px;
+}
+
+.tab {
+    width: 100%;
+
+}
+
+.tab td {
+    padding-bottom: 10px;
+}
+
+.tab td:nth-child(2){
+    color: #483D8B;
+    background: #800080;
+    border-bottom: 2px solid honeydew;
+}
+
+.in {
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+}
+
+.inta label {
+    display: block;
+}
+
+.inta input, textarea {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid rgb(77, 74, 74);
+    color: black;
+    padding: 10px 0 15px;
+    font-family: inherit;
+
+}
+
+.form-row {
+    margin-bottom: 10px;
+
+}
+
+.form-row .inta {
+    display: inline-block;
+    margin-right: 20px;
+    width: 45%;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row, .inta {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+    
+
